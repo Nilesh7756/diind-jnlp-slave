@@ -1,8 +1,8 @@
-##**Do we really want Docker-in-Docker?**
+# **Do we really want Docker-in-Docker?**
 
 Or just want to run Docker to perform CI System (build, run, push container images to hub) in Jenkins. Jenkins Master will launch Jenkins Slave as container and it will perform CI operation in it.
 
-Yes.. Yes.. we can run docker commands in inside jenkins slave container.
+### Yes.. Yes.. we can run docker commands in inside jenkins slave container.
 
 We required Docker binaries files in jenkins slave container, here while creating docker image through docker file we have added docker binaries file to it.
 
