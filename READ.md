@@ -8,4 +8,4 @@ We required Docker binaries files in jenkins slave container, here while creatin
 
 Once image build, we have just to volume mount **Docker sock** [/var/run/docker.sock] of host machine on conatiner [/var/run/docker.sock].
 
-Here we are executing **Docker-daemon/server**  **host machine** and **Docker client** as **jenkins slave container**.
+Here we are executing **Docker-daemon** from **host machine** and **Docker client** as **jenkins slave container**.
